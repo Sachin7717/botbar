@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0%;
+
+}
+
+body{
+    background-color: white;
+}
+
+main{
+    height: 70px;
+    display: flex;
+    align-items: center;
+        
+    position: absolute;
+    bottom: 0px;
+    width:100vw;
+    background-color: black;
+}
+nav{
+    color: white;
+    margin: 40px;
+    position: relative;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 14vw;
+}
+li{
+    margin: 3px;
+    list-style: none;
+    font-size: 22px;
+    position: relative;
+}
+
+.active{
+    background-color: green;
+    padding: 15px;
+    border-radius: 14px;
+    margin-bottom:41px ;
+    top:-15px;
+    /* padding: 10px; */
+    & .listdiv{
+        background-color: white;
+        /* height: 20px; */
+        position: relative;
+        top: 0px;
+        
+    }
+   }
